@@ -1,0 +1,69 @@
+// This part are all about OPERATORS
+
+// let a = 10;
+// let b = 2;
+// let c = 11;
+// let d = 2;
+
+// a = 20
+// b = 2
+
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a%b);
+// console.log(c%d);
+
+// let a = 15;
+// let b = 4;
+
+// console.log("Addition: " + (a + b));
+// console.log("Substraction: " + (a - b));
+// console.log("Multiplication: " + (a * b));
+// console.log("Division: " + (a / b));
+// console.log("Remainder: " + (a % b));
+
+// let laptop = 25000;
+// let mouse = 500;
+// let keyboard = 1000;
+
+// console.log("Laptop: " + laptop);
+// console.log("Mouse: " + mouse);
+// console.log("Keyboard: " + keyboard);
+
+// console.log("Total: " + (laptop + mouse + keyboard));
+
+// let mycoins = 1000;
+// let moneyspent = 350;
+// let earn = 500;
+
+// console.log(mycoins - moneyspent + earn);
+
+// let description = "This is Lyza's Grade"
+
+// let english = 96;
+// let mathematics = 97;
+// let science = 93;
+// let filipino = 85;
+// let overallsubject = 4;
+
+// let average = (english + mathematics + science + filipino) / overallsubject;
+// // you can use number to get average : let average = (english + mathematics + science + filipino) / 4;
+
+// console.log(description);
+// console.log(average);
+
+// let number = 20;
+// let number2 = 21;
+
+// console.log(number % 2);
+// console.log(number2 % 2);
+
+let item = "T-shirt";
+let price = 350;
+let quantity = 3;
+
+let total = (price * quantity);
+
+console.log(total);

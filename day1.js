@@ -32,8 +32,8 @@
 // console.log(currentAge);
 // console.log(birthYear); // try this — it should throw an error!
 
-// let item = "Keyboard";
-// let price = 500;
-// let quantity = 2
+let item = "Keyboard";
+let price = 500;
+let quantity = 2
 
-// console.log("Item: "+ item + "Price: " + price * quantity);
+console.log("Item: "+ item + "Price: " + price * quantity);
