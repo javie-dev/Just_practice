@@ -60,10 +60,29 @@
 // console.log(number % 2);
 // console.log(number2 % 2);
 
-let item = "T-shirt";
-let price = 350;
-let quantity = 3;
+// let item = "T-shirt";
+// let price = 350;
+// let quantity = 3;
 
-let total = (price * quantity);
+// let total = (price * quantity);
 
-console.log(total);
+// console.log(total);
+
+// let a = 12;
+// let b = 5;
+
+// console.log(a + b);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
+// console.log(a % b);
+
+// console.log(2 + 3 * 4);
+// console.log((2 + 3) * 4);
+// console.log(20 / 4 - 2);
+
+// console.log("10" + 5);   // what happens here?
+// console.log("10" - 5);   // what about here?
+// console.log("10" * "2"); // and here?
+
+console.log(675 % 100);
