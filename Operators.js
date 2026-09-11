@@ -85,4 +85,36 @@
 // console.log("10" - 5);   // what about here?
 // console.log("10" * "2"); // and here?
 
-console.log(675 % 100);
+// console.log(675 % 100);
+
+// COMPARISON OPERATORS
+
+// let age = 16;
+
+// console.log( age >= 18);
+// console.log( age >= 18);
+
+// let a = 10;
+// let b = 5;
+
+// console.log(a > b);
+// console.log(a < b);
+// console.log(a >= b);
+// console.log(a <= b);
+// console.log(a === b);
+// console.log(a !== b);
+
+// let age = 20;
+
+// console.log("Is " + age + " greater than 18? " + (age > 18)); 
+// console.log("Is " + age + " less than? " + (age < 18));
+// console.log("Is " + age + " greater than equal to 18? " + (age >= 18));
+// console.log("Is " + age + " exactly 20? "+ (age === age));
+// console.log("Is " + age + " different from 20? " + (age !== age));
+
+let correctpassword = 12345;
+let enteredpassword = 12345;
+let wrongpassword = 54321;
+
+console.log(correctpassword === enteredpassword);
+console.log(correctpassword === wrongpassword);
