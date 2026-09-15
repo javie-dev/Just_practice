@@ -44,14 +44,43 @@
 
 // ACTIVITY 4
 
-let correctUsername = "admin";
-let correctPassword = "12345";
+// let correctUsername = "admin";
+// let correctPassword = "12345";
 
-let enteredUsername = "admin";
-let enteredPassword = "54321";
+// let enteredUsername = "admin";
+// let enteredPassword = "54321";
 
-if (correctUsername && enteredUsername && correctPassword && enteredPassword){
-    console.log("Login Succesfull");
-} else {
-    console.log("Invalid Username or Password");
-}
+// if (correctUsername === enteredUsername && correctPassword === enteredPassword){
+//     console.log("Login Succesfull");
+// } else {
+//     console.log("Invalid Username or Password");
+// }
+
+// ACTIVITY 5
+
+// let day ="Monday";
+// let hour = 7;
+
+// let weekday = (day !== "Saturday" && day !== "Sunday");
+// let workinghour = (hour >= 8 && hour <= 17);
+
+// if (weekday && workinghour){
+//     console.log("Office is Open");
+// } else {
+//     console.log("Office is not Open");
+// }
+
+// other example of ACTIVITY 5
+
+let day = "Sunday";
+let hour = 12;
+
+if ((day === "Monday" ||
+     day === "Tuesday" ||
+     day === "Wednesday" ||
+     day === "Thursday" ||
+     day === "Friday") && (hour >= 8 && hour <= 17)){
+        console.log("Office is Open");
+     } else {
+        console.log("Office is not Open");
+     }
