@@ -72,15 +72,122 @@
 
 // other example of ACTIVITY 5
 
-let day = "Sunday";
-let hour = 12;
+// let day = "Sunday";
+// let hour = 12;
 
-if ((day === "Monday" ||
-     day === "Tuesday" ||
-     day === "Wednesday" ||
-     day === "Thursday" ||
-     day === "Friday") && (hour >= 8 && hour <= 17)){
-        console.log("Office is Open");
-     } else {
-        console.log("Office is not Open");
-     }
+// if ((day === "Monday" ||
+//      day === "Tuesday" ||
+//      day === "Wednesday" ||
+//      day === "Thursday" ||
+//      day === "Friday") && (hour >= 8 && hour <= 17)){
+//         console.log("Office is Open");
+//      } else {
+//         console.log("Office is not Open");
+//      }
+
+// ACIVITY 6
+
+// let studentName = "Javie Eresmas";
+// let grade = 97;
+
+// console.log(" Student: " + studentName);
+// console.log(" Grade: " + grade);
+
+// if (grade >= 90 && grade <= 100){
+//     console.log(" Result: Excellent keep it up!");
+// } else if (grade >= 80 && grade <= 90){
+//     console.log(" Result: Very Good! You are Doing Well");
+// } else if (grade >= 75 && grade <= 79){
+//     console.log(" Result: Passed! Keep Improving!");
+// } else if (grade >= 1 && grade <= 74){
+//     console.log(" Result: You Fail! Improve and Put more Effort");
+// } else {
+//     console.log("Invalid");
+// }
+
+// What is wrong with this code
+
+// let password = "hello";
+
+// if (password = "haiiii") {
+//     console.log("Correct");
+// }
+
+// From CLAUDE AI
+
+// SCENARIO 1
+
+// let username = "";
+// let password = "secret123";
+
+// if (username === 'Javie' || password && 'secret123'){
+//     console.log("Pls fill in all Fields");
+// } else{
+//     console.log("Logging in......")
+// }
+
+// SCENARIO 2
+
+// let totalamount = 10000;
+
+// if (totalamount >= 5000){
+//     console.log("20% off...");
+// } else if(totalamount >= 2000 && totalamount <= 4999){
+//     console.log("10% off...");
+// } else {
+//     console.log("No Discount...");
+// }
+
+// SCENARIO 3
+
+// let userage = 56;
+// let agreedToTerms = true;
+
+// if (userage >= 18 && agreedToTerms === true){
+//     console.log("Sign up Allowed");
+// } else{
+//     console.log("Signup Blocked");
+// }
+
+// SCENARIO 4
+
+// let orderTotal = 800;
+// let location = "Bukidnon";
+
+// if (orderTotal >= 1500){
+//     console.log("Free Shipping");
+// } else if (location === "Metro Manila"){
+//     console.log("Free Shipping");
+// } else {
+//     console.log(orderTotal + 120);
+// }
+
+// SCENARIO 5
+
+// My own code for Scenario 5
+
+// let password = "asdfasdf";
+// let hasnumber = false;  
+
+// if (password.length < 6){
+//     console.log("Password was too short");
+// } else if (password.length > 8) {
+//     console.log("Password was too long");
+// } else if (password && !hasnumber){
+//     console.log("Inlcude Numbers in Password");
+// } else{
+//     console.log("Logging in.......");
+// }
+
+// Wala nako kabalo so nagpatudlo nalng kong Uncle Claude
+
+let password = "1234asdf";
+let hasNumber = true;
+
+if (password < 6){
+    console.log("Too Short");
+} else if ( password >= 6 && !hasNumber){
+    console.log("Add Numbers");
+} else {
+    console.log("Strong Password....");
+}
