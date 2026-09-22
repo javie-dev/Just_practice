@@ -227,13 +227,48 @@
 // console.log(hasNumber);
 // console.log(hasNumber !== null);
 
-// I use password.lenght and password.match considering for strong password #JustPractice
-let password = "Javie123";
-let mimimumLength = password.length >= 8; 
-let hasNumber = password.match(/[0-9]/);
+// I use password.length and password.match considering for strong password #JustPractice
+// let password = "Javie123";
+// let mimimumLength = password.length >= 8; 
+// let hasNumber = password.match(/[0-9]/);
 
-if(mimimumLength && hasNumber){
-    console.log("Strong Password");
-} else if (mimimumLength || password || hasNumber || password){
-    console.log("Password needs 8 characters, and number.");
-} 
+// if(mimimumLength && hasNumber){
+//     console.log("Strong Password");
+// } else if (mimimumLength || password || hasNumber || password){
+//     console.log("Password needs 8 characters, and number.");
+// } 
+
+// i try .test to determined if password had numbers
+// let password = "javie"
+// let hasNumber = /\d/.test(password);
+
+// if (password && hasNumber){
+//     console.log("It has number");
+// } else {
+//     console.log("should have number");
+// }
+
+// testing my curiosity if it workssssss #itdoes
+// let password = "Javie123";
+// let confirmPassword = "Lyza123";
+// let passwordLength = password.length >= 8 ;
+// let hasNumber = /\d/.test(password);
+// let samePassword = password.match(confirmPassword);
+
+// if(password && samePassword){
+//     console.log("yow");
+// } else {
+//     console.log("nahhhhh")
+// }
+
+// Testing
+let password = "Javieee1";
+
+let passwordLength = password.length >= 8 ;
+let hasNumber = /\d/.test(password);
+
+if(password && passwordLength && password && hasNumber){
+    console.log("You have a strong password");
+} else {
+    console.log("Weak Password");
+}
