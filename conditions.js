@@ -192,19 +192,48 @@
 //     console.log("Strong Password....");
 // }
 
-let name = "Javie";
-let grade = 75;
+// Practice lang 
 
-if (grade >= 95){
-    console.log("Wow " + name + " Got A+ Grade");
-} else if (grade >= 90){
-    console.log("Wow " + name + " Got A Grade");
-} else if (grade >= 85){
-    console.log("Wow " + name + " Got B Grade");
-} else if (grade >= 80){
-    console.log("Wow " + name + " Got B+ Grade");
-} else if (grade >= 75){
-    console.log("Wow " + name + " Got C Grade");
-} else {
-    console.log("Hey! " + name + " You should study More!!");
-}
+// let name = "Javie";
+// let grade = 75;
+
+// if (grade >= 95){
+//     console.log("Wow " + name + " Got A+ Grade");
+// } else if (grade >= 90){
+//     console.log("Wow " + name + " Got A Grade");
+// } else if (grade >= 85){
+//     console.log("Wow " + name + " Got B Grade");
+// } else if (grade >= 80){
+//     console.log("Wow " + name + " Got B+ Grade");
+// } else if (grade >= 75){
+//     console.log("Wow " + name + " Got C Grade");
+// } else {
+//     console.log("Hey! " + name + " You should study More!!");
+// }
+
+
+// let name = "JavieJadeEresmas"
+// console.log(name.length);
+
+// this checks the minimum lenght of the password
+// let password = "abc123abc";
+// let isLongEnough = password.length >= 8;
+// console.log(isLongEnough);
+
+// Using .match(); to identify the Password if it has number included
+// let password = "Javie";
+// let hasNumber = password.match(/[0-9]/);
+
+// console.log(hasNumber);
+// console.log(hasNumber !== null);
+
+// I use password.lenght and password.match considering for strong password #JustPractice
+let password = "Javie123";
+let mimimumLength = password.length >= 8; 
+let hasNumber = password.match(/[0-9]/);
+
+if(mimimumLength && hasNumber){
+    console.log("Strong Password");
+} else if (mimimumLength || password || hasNumber || password){
+    console.log("Password needs 8 characters, and number.");
+} 
