@@ -181,13 +181,30 @@
 
 // Wala nako kabalo so nagpatudlo nalng kong Uncle Claude
 
-let password = "1234asdf";
-let hasNumber = true;
+// let password = "1234asdf";
+// let hasNumber = true;
 
-if (password < 6){
-    console.log("Too Short");
-} else if ( password >= 6 && !hasNumber){
-    console.log("Add Numbers");
+// if (password < 6){
+//     console.log("Too Short");
+// } else if ( password >= 6 && !hasNumber){
+//     console.log("Add Numbers");
+// } else {
+//     console.log("Strong Password....");
+// }
+
+let name = "Javie";
+let grade = 75;
+
+if (grade >= 95){
+    console.log("Wow " + name + " Got A+ Grade");
+} else if (grade >= 90){
+    console.log("Wow " + name + " Got A Grade");
+} else if (grade >= 85){
+    console.log("Wow " + name + " Got B Grade");
+} else if (grade >= 80){
+    console.log("Wow " + name + " Got B+ Grade");
+} else if (grade >= 75){
+    console.log("Wow " + name + " Got C Grade");
 } else {
-    console.log("Strong Password....");
+    console.log("Hey! " + name + " You should study More!!");
 }
