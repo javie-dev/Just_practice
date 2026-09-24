@@ -262,13 +262,121 @@
 // }
 
 // Testing
-let password = "Javieee1";
+// let password = "Javieee1";
 
-let passwordLength = password.length >= 8 ;
-let hasNumber = /\d/.test(password);
+// let passwordLength = password.length >= 8 ;
+// let hasNumber = /\d/.test(password);
 
-if(password && passwordLength && password && hasNumber){
-    console.log("You have a strong password");
-} else {
-    console.log("Weak Password");
+// if(password && passwordLength && password && hasNumber){
+//     console.log("You have a strong password");
+// } else {
+//     console.log("Weak Password");
+// }
+
+// ACTIVITIES TO PRCTICE
+
+// #1 Easy - Medium
+// let oddOreven = 1;
+
+// if (oddOreven % 2 === 0){
+//     console.log("Even");
+// } else{
+//     console.log("Odd");
+// }
+
+// #2 Easy - Medium
+// let myGrade = "56";
+
+// if (myGrade >= 90 && myGrade <= 100){
+//     console.log("A");
+// } else if(myGrade >= 80 && myGrade <= 89){
+//     console.log("B");
+// } else if (myGrade >= 80 && myGrade <= 79){
+//     console.log("C");
+// } else{
+//     console.log("F")
+// }
+
+// #2 Easy - Medium
+
+// Wrong Answer
+// let userName = "Javie"
+// let password = "Javie123"
+// let isAccountLocked = false;
+
+// let passwordLength = password.leng qth >= 6;
+// let hasUserName = userName.match(userName);
+
+// if (hasUserName && userName && password && passwordLength && !isAccountLocked){
+//     console.log("Access Granted");
+// } else if(password.length > 6 || password){
+//     console.log("Password should have atleast 8 Characters");
+// }
+
+// Correct Answer i just added that if the password has number on it
+
+// let userName = "Javie123";
+// let password = "Javiess"
+// let isAccountLocked = false;
+
+// let hasUserName = userName.length > 0;
+// let passwordLength = password.length > 6;
+// let hasNumber = /\d/.test(password);
+
+// if (!hasUserName){
+//     console.log("No Username");
+// } else if(!passwordLength){
+//     console.log("Password should have atleast 8 Characters");
+// } else if(!hasNumber){
+//     console.log("Password should have NUMBER");
+// } else {
+//     console.log("Access Granted");
+// }
+
+// #4 
+
+//MyCode
+// let userName = "Javiegwapo123";
+
+// let userNameLength = userName.length >=5 && userName.length <= 15;
+// let hasNumbers = /\d/.test(userName);
+// let noSpace = /\s/.test(userName);
+
+// if(userNameLength){
+//     console.log("UserName should have atleast 5 to 15 Characters");
+// } else if(hasNumbers){
+//     console.log("UserName should Have Numbers");
+// } else if(noSpace){
+//     console.log("Username should have no Space");
+// } else{
+//     console.log("Correct UserName")
+// }
+
+// From Claude
+
+let userName = "Javiegwapo"
+
+let validlength = userName.length >=5 && userName.length <= 15;
+let hasNumber = /\d/.test(userName);
+let noSpace = /\s/.test(userName);
+
+let isValid = true;
+
+if(!validlength){
+    console.log("Username must contain 8 to 15 characters");
+    isValid = false;
+}
+
+if(!hasNumber){
+    console.log("Username must contain Numbers");
+    isValid = false;
+}
+
+if(noSpace){
+    console.log("Username must have ");
+    isValid = false;
+}
+
+if(isValid){
+    console.log("UserName Valid");
 }
