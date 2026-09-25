@@ -354,29 +354,67 @@
 
 // From Claude
 
-let userName = "Javiegwapo"
+// let userName = "Jav"
 
-let validlength = userName.length >=5 && userName.length <= 15;
-let hasNumber = /\d/.test(userName);
-let noSpace = /\s/.test(userName);
+// let validlength = userName.length >=5 && userName.length <= 15;
+// let hasNumber = /\d/.test(userName);
+// let noSpace = /\s/.test(userName);
 
-let isValid = true;
+// let isValid = true;
 
-if(!validlength){
-    console.log("Username must contain 8 to 15 characters");
-    isValid = false;
+// if(!validlength){
+//     console.log("Username must contain 8 to 15 characters");
+//     isValid = false;
+// }
+
+// if(!hasNumber){
+//     console.log("Username must contain Numbers");
+//     isValid = false;
+// }
+
+// if(noSpace){
+//     console.log("Username must have ");
+//     isValid = false;
+// }
+
+// if(isValid){
+//     console.log("UserName Valid");
+// }
+
+// #5
+
+let age = 30;
+let isMatinee = true;
+let isMember = true;
+
+let price;
+let ticketType;
+let breakdown = [];
+
+// Step 1: base price by age
+if (age < 12) {
+    price = 8;
+    ticketType = "child";
+} else if (age <= 64) {
+    price = 12;
+    ticketType = "adult";
+} else {
+    price = 9;
+    ticketType = "senior";
+}
+breakdown.push(`Base ${ticketType} price: $${price}`);
+
+// Step 2: matinee discount — adult tickets only
+if (isMatinee && ticketType === "adult") {
+    price -= 3;
+    breakdown.push("Matinee discount applied: -$3");
 }
 
-if(!hasNumber){
-    console.log("Username must contain Numbers");
-    isValid = false;
+// Step 3: member discount — only if price is still above $5
+if (isMember && price > 5) {
+    price -= 2;
+    breakdown.push("Member discount applied: -$2");
 }
 
-if(noSpace){
-    console.log("Username must have ");
-    isValid = false;
-}
-
-if(isValid){
-    console.log("UserName Valid");
-}
+console.log(`Final price: $${price}`);
+console.log("Breakdown:", breakdown.join(", "));
